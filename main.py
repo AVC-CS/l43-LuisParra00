@@ -9,7 +9,11 @@ def main():
 
     while i < 5:
         num = int(input('Enter your number: '))
-        
+        total += num
+        i += 1
+
+
+    print(total)
 
     ########################################
     # Do not delete the return statement
